@@ -1,0 +1,21 @@
+CREATE DATABASE db_otac;
+USE db_otac;
+
+CREATE TABLE tbl_Daten(
+    zeit int,
+    neigung int,
+    beschleunigung int,
+    geschwindigkeit int,
+    PRIMARY KEY (Zeit) 
+);
+
+
+
+CREATE TABLE `tb_user` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `passwort` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

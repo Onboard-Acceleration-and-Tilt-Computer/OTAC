@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: white;
+}
+
+.box{
+	width: 300;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	<--background: url('../bilder/bg-01.jpg') no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-radius: 24px;
+	border: 5px white;
+    opacity: 0.;
+    background-color: #efefef;
+	
+}
+
+.box:hover{
+	box-shadow: 5px 5px 5px black;
+}
+
+.box input[type = "email"], .box input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 2px auto;
+	text-align: center;
+	border: 2px solid #34495e;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition:  0.25s;
+	background:  white;
+}
+
+.box input[type = "email"]:focus, .box input[type = "password"]:focus{
+	width: 240px;
+	border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 2px auto;
+	text-align: center;
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition:  0.25s;
+	background: #4887ef;
+	font-weight:600;
+	cursor: pointer;
+    border-radius: 24px;
+	
+}
+.box input[type = "submit"]:hover{
+	transform: scale(1.2);
+}
+
+#box{
+    height: auto;
+    background-color: #748191;
+    position: absolute;
+	width: 100%;
+    top: 0.1px;
+    left: 0%;
+    border: solid 1px black;
+    opacity: ;
+}
+#box1{
+    height: auto;
+    background-color: #efefef;
+    position: absolute;
+	width: 100%;
+    bottom: 0.1px;
+    left: 0%;
+    border: solid 1px black;
+    opacity: ;
+}
+
+#register {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#nav_bar #register {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#register:hover { 
+  --box-shadow: 1px 1px 5px #999;
+  	transform: scale(1.2);
+	cursor:pointer;
+}
+
+#register {
+  color: #fff;
+}
